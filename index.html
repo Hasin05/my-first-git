@@ -3,9 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first git</title>
+    <title>My first WebPage & My first git</title>
+    <link rel="stylesheet" href="nice.css">
+    <style>
+        *{
+            margin: 5px;
+        }
+        input
+        {
+            color: blue;
+            font-size: large;
+            font: optional;
+        }
+        li{
+            
+            list-style-type: disc;
+            
+        }
+        #mams{
+            font-style: italic;
+            font-size: large;
+            font-weight: bold ;
+        }
+        #jeki{
+            font-size: medium;
+            background-color: rgb(118, 118, 173);
+            width: fit-content;
+            font-weight: bolder;
+        }
+        .player{
+            background-color: darkorange;
+            width: max-content;
+            font-weight: bold;
+            font-style: oblique;
+        }
+        #heading{
+            text-align: center;
+            background-color: chartreuse;
+            width: max-content;
+            
+        }
+        .blog{
+            /* background-color: aqua; */
+            width: max-content;
+            border-left: 5px solid tomato;
+            border-radius: 5px;
+        }
+        .sun{
+            font-weight: bolder;
+        }
+        .option{
+            font-size: large;
+        }
+        .form{
+            font-size: larger;
+        }
+        .cover{
+            margin: 50px 120px 50px 320px;
+            background-color: rgb(245, 214, 15);
+            border: 5px solid rgb(226, 44, 12);
+            width: 50%;
+            border-radius: 5px;
+    }
+    </style>
 </head>
 <body>
+    <header class="header">
+        <h2>Welcome to my external website</h2>
+    </header>
+
+    <h1 id="heading">
+        <p>My Travel Blog</p>
+     </h1>   
+    
+    <p id="jeki"> Pura matha nosto mama,gesilam first e ekta kaje Dhaka. kaj seshe Dhakay ap jhap kisu ghursi, 
+        kacchi-macchi khaisi. pore aya porsi direct sunamgonj.
+        <br> Ekdom Dhakar jantrik poribesh thaika purai natural environmnte e.
+        Sunamgonje hawor-mawor ghurlam..<br>shei chill.. r khana-dana!! Mathai nosto.. vabsi tore nia ekbar jamu.
+    </p>
+    <br>
+    <div id="place" class="center">
+        <p id="mams">Place Where I Travelled:</p>
+    <br>
+    <ol>
+        <li>Sunamgonj</li>  
+        <li>Dhaka</li>
+    </ol>
+    </div>
+     <a href="https://www.youtube.com/watch?v=KQKQxMnc69U">
+            <b> Watch sunamgonj travel video..</b>
+            <br>
+    </a>  
+    
+    <img src ="suna.jpg" width ="620" height="300" class="center">
+    <p align="center">Tanguar Hawor, Sunamgonj</p> 
+    <br> 
+    <br>
+    <img src ="food.jpg" class="center">
+    <p align="center"><b>I tried some food also:</b></p>
+    
+    <br>
+    <br>
+    <br>
+
+    <div class="blog">
+        <h3>My Personal Opinion</h3>
+        <p>Shotti bolte ghurte giye besh mojai hoise specially 
+            <span class="sun">Shunamgonj</span>, tobe kisy perao khaisi. Gram areay ghurte gele <br>
+        kisu bepare shabdhan thahaka valo, r dorkari oshud-pati shathe rakha valo.</p>
+    </div>
+    <br>
+    
+    
+    
+    <div class="cover">
+    <h2 align = "center"><i><b>Want to travel with me??? <br>Then fill this form:</b></i></h2>
+    <br>
+    <p class="form"><u>Your Name:</u></p>
+    <input class="box" type="text" placeholder="Name">
+    <p class="form"><u>Gender:</u></p>
+    <select class="option">
+        <option>Male</option>
+        <option>Female</option>
+    </select>
+    
+    <p class="form"><u>Phone Number:</u></p>
+    <input  type="text" placeholder="Phone Number">
+    <p class="form"><u>Your age:</u></p>
+    <input type="number" placeholder="Age">
+    <p class="form"><u>Email:</u></p>
+    <input type="email" placeholder="Email">
+    <p class="form"><u>Your present address:</u></p>
+    <input type="text" placeholder="Address">
+
+    <p class="form"><u>Place you want to travel:</u></p>
+    <select class="option">
+        <option>Sunamgonj</option>
+        <option>Dhaka</option>
+    </select>
+    <br>
+    <input type="submit">
+    </div>
+    
+    
+    
+    <br>
+    <br>
+    <br>
+    <h3><p> <strong>#Travel er kisu rules: </strong></p></h3>
+    <ol class="player">
+        
+        <li>Always on time e thakte hobe. Late kora cholbe na</li>
+        <li>Nijer kisu basic jinish always shathe rakhben.</li>
+        <li>Travel er cost nijer ta nije carry korte hobe.</li>
+        <li>Matha thada rakhte hobe. Gorom korlei <strong>COT</strong></li>
+        <li>Meye hole valo hoy, karon <span class="ras">Rasel vaiyer</span> jonno meye khujtesi.
+            Valo lagle ami e apnake rekhe dibo.</li>
+    </ol>
+    <br>
+    
+    <h4>
+        <p><b><i><li>Are you agree mammmaa???</li></i></b></p>
+        <p>
+        <input type="checkbox">
+        Yesss mammmaa!!
+        </p>
+    </h4>
     
 </body>
 </html>

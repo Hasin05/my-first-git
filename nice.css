@@ -1,0 +1,35 @@
+.header{
+    text-align: center;
+    color: rgb(28, 30, 27);
+    height: 100px;
+    background-image: url('develop.jpg');
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: top;
+}
+h1{
+    color: red;
+}
+.blog{
+    background-color: yellowgreen;
+    border: 5px solid tomato;
+    box-shadow: 5px 5px 10px maroon;
+}
+.ras{
+    border: 1px solid darkcyan;
+    color: blue;
+    display: inline
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#place{
+    /* border: 5px dotted red; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
